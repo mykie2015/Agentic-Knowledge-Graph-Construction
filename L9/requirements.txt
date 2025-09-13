@@ -4,3 +4,6 @@ litellm==1.73.6
 neo4j-graphrag==1.8.0
 rapidfuzz==3.13.0
 ipykernel==6.30.0
+python-dotenv==1.0.0
+pandas>=2.0.0
+numpy>=1.24.0
