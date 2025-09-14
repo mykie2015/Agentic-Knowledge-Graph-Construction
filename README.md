@@ -121,6 +121,21 @@ By completing this course, you'll be able to:
 - Implement entity resolution and graph correlation techniques
 - Deploy production-ready knowledge graph systems
 
+## Testing
+
+The project includes a comprehensive test suite organized under the `tests/` directory:
+
+```bash
+# Run system integration tests
+python tests/test_imports.py
+
+# Run specific test categories
+python tests/agents/test_user_intent_config.py
+python tests/config/test_config_parsing.py
+```
+
+All test files are preserved for debugging and validation purposes. See the [Setup Guide](SETUP_GUIDE.md) for detailed testing instructions.
+
 ## Contributing
 
 This is an educational repository. Feel free to:

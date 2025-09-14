@@ -1,0 +1,16 @@
+{
+  "session_id": "907ee7f9-f189-4c95-b902-c4957c084897",
+  "user_id": "interactive_user",
+  "session_type": "default",
+  "created_at": "2025-09-14T22:48:07.153580",
+  "last_activity": "2025-09-14T22:48:07.153580",
+  "state": {},
+  "metadata": {},
+  "is_active": true,
+  "active_agents": [],
+  "agent_history": [],
+  "current_task": null,
+  "completed_tasks": [],
+  "workflow_step": "initialization",
+  "workflow_data": {}
+}

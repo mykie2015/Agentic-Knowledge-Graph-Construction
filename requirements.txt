@@ -1,7 +1,49 @@
-google-adk==1.5.0
-neo4j==5.28.1
-litellm==1.73.6
-neo4j-graphrag==1.8.0
-rapidfuzz==3.13.0
-ipykernel==6.30.0
-python-dotenv==1.0.0
+# Core dependencies for Agentic Knowledge Graph Construction System
+
+# Google Agent Development Kit
+google-adk
+
+# LLM and AI
+litellm>=1.40.0
+openai>=1.0.0
+
+# Neo4j graph database
+neo4j>=5.0.0
+neo4j-graphrag
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Configuration and utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+
+# Logging (built-in to Python, listed for completeness)
+# logging - part of standard library
+
+# Type hints and development
+typing-extensions>=4.0.0
+
+# Path handling (built-in to Python 3.4+)
+# pathlib - part of standard library
+
+# Async support (built-in to Python 3.7+)
+# asyncio - part of standard library
+
+# UUID generation (built-in to Python)
+# uuid - part of standard library
+
+# JSON handling (built-in to Python)
+# json - part of standard library
+
+# Date and time (built-in to Python)
+# datetime - part of standard library
+
+# Abstract base classes (built-in to Python)
+# abc - part of standard library
+
+# Optional dependencies for enhanced functionality
+jupyter>=1.0.0  # For notebook integration
+matplotlib>=3.5.0  # For visualization
+seaborn>=0.11.0  # For advanced plotting

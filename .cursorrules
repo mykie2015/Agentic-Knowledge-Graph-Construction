@@ -1,0 +1,47 @@
+# Cursor IDE Rules for Agentic Knowledge Graph Construction
+
+## Python Environment
+- ALWAYS use the virtual environment at `.venv/bin/python` for Python execution
+- All Python commands should be run with the virtual environment activated
+- When running tests or scripts, use: `python script.py` (assumes .venv is active)
+- For terminal commands: ensure `.venv/bin/python` is in PATH or activate first
+- All package installations should use `.venv/bin/pip`
+
+## Test File Organization
+- All test files (test_*.py, *_test.py) must be saved under the `tests/` folder
+- Do NOT remove test files - they should be preserved for debugging and validation
+- Test files should follow the naming convention: `test_<functionality>.py`
+- Unit tests should be organized in subdirectories matching the source structure:
+  - `tests/agents/` for agent tests
+  - `tests/core/` for core functionality tests
+  - `tests/utils/` for utility tests
+- Run tests from project root using virtual environment
+
+## Project Structure Guidelines
+- Source code belongs under `src/`
+- Configuration files belong under `config/`
+- Data inputs belong under `data/input/`
+- Data outputs belong under `data/output/`
+- Logs belong under `log/`
+- Educational materials belong under `.spec-workflow/refer/`
+- All Python modules should use relative imports within the `src/` directory
+
+## Code Quality
+- Follow PEP 8 style guidelines
+- Use type hints for function parameters and return values
+- Add docstrings to all public functions and classes
+- Maintain proper import organization (standard library, third-party, local)
+- Use relative imports for modules within the same package (e.g., `from .neo4j_for_adk import`)
+- Ensure all imports work from the `src/` directory context
+
+## Documentation
+- Keep README.md updated with current project status
+- Update SETUP_GUIDE.md when adding new dependencies
+- Document configuration changes in relevant config files
+- Include virtual environment setup instructions in all documentation
+
+## Development Workflow
+- Work from the `src/` directory for Python module development
+- Test from the project root directory
+- Always verify imports work with the virtual environment
+- Use absolute paths for data directories (data/input, data/output, log)
